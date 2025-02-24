@@ -5,7 +5,7 @@ import { test, expect, BrowserContext, Page } from '@playwright/test';
  * so ignore first if the test feels so flaky
  */
 
-const URL = "http://account.accurate.test1";
+const URL = "...";
 
 test.beforeEach(async ({page}) => {
   test.setTimeout(120_000);
@@ -14,8 +14,8 @@ test.beforeEach(async ({page}) => {
 
 test('Login AOL', async ({ page, context }) => {
   //Login to Accurate Online
-  await page.locator("//form[@id='login-form']//input[@id='account']").fill("adam.dermawan@cpssoft.com");
-  await page.locator("//form[@id='login-form']//input[@id='password']").fill("Ayambertelur12x?");
+  await page.locator("//form[@id='login-form']//input[@id='account']").fill("...");
+  await page.locator("//form[@id='login-form']//input[@id='password']").fill("...");
   await page.locator("//button[@id='btn-login']").click();
 
   //Login Success
