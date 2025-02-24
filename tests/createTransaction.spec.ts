@@ -47,6 +47,6 @@ test('Login AOL', async ({ page, context }) => {
 
   //click continue notifications
   await newTab.locator("//div[contains(@class,'queue-indicator')]").click();
-  await newTab.locator("//div[@class='queue-content']//button[text()='Lanjutkan']").cligit add .ck();
+  await newTab.locator("//div[@class='queue-content']//button[text()='Lanjutkan']").click();
 });
 
